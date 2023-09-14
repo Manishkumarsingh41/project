@@ -2,7 +2,6 @@
 product_names = []
 product_prices = []
 product_quantities = []
-
 while True:
     product_name = input("Enter the product name: ")
     product_price = float(input("Enter the product price: "))
