@@ -1,5 +1,4 @@
 import random
-
 # Create a dictionary to store the passwords
 password_locker = {}
 
