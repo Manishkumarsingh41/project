@@ -15,7 +15,6 @@ while True:
     answer = input("Do you want to enter another product? (y/n): ")
     if answer == "n":
         break
-
 # Calculate the total cost of the purchase.
 total_cost = 0
 for i in range(len(product_names)):
