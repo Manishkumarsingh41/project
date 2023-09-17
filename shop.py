@@ -6,7 +6,6 @@ while True:
     product_name = input("Enter the product name: ")
     product_price = float(input("Enter the product price: "))
     product_quantity = int(input("Enter the product quantity: "))
-
     product_names.append(product_name)
     product_prices.append(product_price)
     product_quantities.append(product_quantity)
