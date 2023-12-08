@@ -1,6 +1,7 @@
 import random
 # Create a dictionary to store the passwords
-password_locker = {}
+password_locker = {}
+
 # Function to generate a random password
 def generate_password(length):
     characters = "manish123"
@@ -8,7 +9,6 @@ def generate_password(length):
     for i in range(length):
         password += random.choice(characters)
     return password
-
 # Function to add a new password to the locker
 def add_password(account, password):
     password_locker[account] = password
