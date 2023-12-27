@@ -9,7 +9,6 @@ while True:
     product_names.append(product_name)
     product_prices.append(product_price)
     product_quantities.append(product_quantity)
-
     # Check if the user wants to enter another product.
     answer = input("Do you want to enter another product? (y/n): ")
     if answer == "n":
